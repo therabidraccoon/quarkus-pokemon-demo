@@ -8,8 +8,6 @@ import io.smallrye.mutiny.Multi;
 import io.smallrye.mutiny.Uni;
 import io.vertx.core.json.JsonObject;
 import it.si2001.client.PokemonClient;
-import it.si2001.backup.TestModel;
-import it.si2001.client.response.PokemonDto;
 import it.si2001.client.response.PokemonResponseDto;
 import it.si2001.dao.PokemonDao;
 import it.si2001.model.Pokemon;
@@ -19,8 +17,6 @@ import org.eclipse.microprofile.rest.client.RestClientBuilder;
 import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;
 import java.net.URI;
-import java.util.ArrayList;
-import java.util.List;
 
 @Slf4j
 @ApplicationScoped
